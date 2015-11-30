@@ -10,7 +10,8 @@
         <form class="form-horizontal", id="new_outfit", enctype="multipart/form-data", action="<%=upload_outfit_path%>", method="post">
 
           <input name="utf8" type="hidden" value="✓">
-
+<!-- use the rails form helper -->
+<!-- use partials for these different sections -->
           <input type="hidden" name="authenticity_token" value="JMrEQYSmDGJRUfIp7HBu0DYvbXTs226Zq8G6JnOnjQ5N/vj43u31EXLTSh9353Ek+W+hEsVqe3t6YKWw58QjTA==">
 
           <% if @outfit.errors.any? %>

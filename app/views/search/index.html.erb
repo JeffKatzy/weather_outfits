@@ -9,7 +9,8 @@
 
         <div class="panel panel-primary">
           <div class="panel-heading" align="center">
-
+  <!-- This logic can be a in a view object -->
+  <!-- In general this page should use view objects and partials to remove the logic -->
             <% if @location == @location.to_i.to_s %>
               <h3 class="panel-title">Today's weather in <%= @location.to_region(city: true) %></h3>
             <% else %>

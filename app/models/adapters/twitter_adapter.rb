@@ -1,3 +1,4 @@
+# remove file
 # module Adapters
 #   class TwitterAdapter
 

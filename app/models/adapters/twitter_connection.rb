@@ -1,3 +1,4 @@
+# why are there two files called twitter_connection?
 module Adapters
   class TwitterConnection
 

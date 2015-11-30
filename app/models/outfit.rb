@@ -24,6 +24,9 @@ class Outfit < ActiveRecord::Base
     else
       Outfit.where(user_id: 2, temp: temperature , rain: rain_status, gender: m_or_f).sample
     end
+    # remove the if else block instead do 
+      # user_id = current_user ? current_user.id : 2
+      # Also unclear why the user_id should be set to 2, not expressive code
   end
 
 
